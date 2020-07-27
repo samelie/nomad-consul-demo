@@ -28,7 +28,7 @@
     src={{ consul_download_folder }}/{{ consul_archive }}
     dest={{ consul_move_to }}
     remote_src=yes
-  when: consul_was_downloaded|changed
+  when: consul_was_downloaded
   tags: [consul]
 
 - name: Is running

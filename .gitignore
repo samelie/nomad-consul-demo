@@ -71,3 +71,6 @@ buildNumber.properties
 
 /apps/java/java-app/target/
 **.log
+
+
+.DS_Store

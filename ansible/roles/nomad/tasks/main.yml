@@ -37,7 +37,7 @@
     src={{ nomad_download_folder }}/{{ nomad_archive }}
     dest={{ nomad_move_to }}
     remote_src=yes
-  when: nomad_was_downloaded|changed
+  when: nomad_was_downloaded
   tags: [nomad]
 
 - name: Start nomad
